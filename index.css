@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar
+{
+    position: absolute;
+    background-color: rgb(125, 122, 122);
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    transform: translate();
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav
+{
+    padding: 22px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+    
+}
+
+.sidebar nav li a{
+text-decoration: none;
+color: black;
+}
+.main
+{
+    /*background-color: yellow;*/
+    width: 100vw;
+    padding: 23px;
+}
+.container
+{
+    display: flex;
+    
+}
+.infocontainer{
+    /*background-color: rgb(96, 203, 24);*/
+    height: 60vh;
+    width: 80vw;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo
+{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 3em;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.about{
+    font-size: 2.5em;
+}
+.aboutmore
+{
+    font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+
+}
+.buttons{
+    margin-top: 35px; 
+}
+.buttons button{
+    padding: 9px 14px;  
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+.buttons button:hover
+{
+    color: blue;
+    background-color: white;
+}
+.pic img{
+    height: 60vh;
+}
+.contactform
+{
+    padding: 0 34px;
+    padding-top: 130px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.contactform h1
+{
+    padding: 24px 0;
+    font-family: 'Source Code Pro', monospace;
+}
+.contactform form div
+{
+    padding: 10px 0;
+}
+.skillitems{
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.skillitems h1{
+    font-family: 'Source Code Pro', monospace;
+    margin: 25px;
+    
+}
+.skillitems p{
+    font-family: 'Source Code Pro', monospace;
+    
+}
+.introcontainer{
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+}
+.traincontainer{
+    font-family: 'Open Sans', sans-serif;
+    margin: 25px;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 95px;
+}
+.sidebargo    {
+    transform: translate(-440px, 0px);
+    position: absolute;
+}
+@media (max-width: 800px) {
+   * {
+    background-color: rgb(155, 68, 68);
+}
+.devinfo{
+    font-size: 10px;
+}
+.pic{
+    display: none;
+}
+/*.sidebar    {
+        transform: translate(-440px, 0px);
+        position: absolute;
+    }*/
+.introcontainer, .skillitems, .contactform{
+    margin: 50px 8px;
+}
+}
