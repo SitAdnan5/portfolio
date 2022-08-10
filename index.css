@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
 }
+
 .sidebar
 {
     position: absolute;
@@ -13,6 +14,9 @@
     font-family: 'Open Sans', sans-serif;
     transform: translate();
     transition: transform 0.3s ease-in;
+}
+body{
+    background-image: url(moroccan-flower.png);
 }
 .sidebar nav
 {
@@ -42,6 +46,7 @@ color: black;
 }
 .infocontainer{
     /*background-color: rgb(96, 203, 24);*/
+    background-color: yellow;
     height: 60vh;
     width: 80vw;
     margin: 150px auto;
@@ -50,7 +55,7 @@ color: black;
 }
 .devinfo
 {
-    font-size: 16px;
+    font-size: 12px;
     display: flex;
     justify-content: center;
     flex-direction: column;
